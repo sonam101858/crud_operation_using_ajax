@@ -20,7 +20,7 @@ function isValidImage($image) {
     return in_array($imageExtension, $allowedFormats) && getimagesize($image['tmp_name']);
 }
 
-// AJAX insert query
+// AJAX insert queries
 $name =$_POST["name"];
 $email = $_POST["email"];
 $password = $_POST["password"];
