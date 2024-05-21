@@ -2,7 +2,6 @@
 include "db.php";
 
 function isValidName($name) {
-    // You can customize the name validation pattern as needed
     return preg_match("/^[a-zA-Z. ]+$/", $name);
 }
 
