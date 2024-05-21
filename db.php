@@ -1,6 +1,6 @@
 <?php
 // Database connection parameters
-$servername = "localhost:4306";
+$servername = "localhost:3306";
 $username = "root";
 $password = "";
 $database = "crudoperation_ajax";

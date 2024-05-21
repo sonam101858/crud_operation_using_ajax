@@ -99,7 +99,7 @@ img{
 
      <br><br>
 
-<
+
 <!-- Your pagination script (in the same file) -->
 <script type="text/javascript">
     $(document).ready(function(){
